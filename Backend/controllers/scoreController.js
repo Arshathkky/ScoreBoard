@@ -1,5 +1,5 @@
 // scoreController.js
-const Score = require('./scoreModel');
+const Score = require('../Models/scoreSchema');
 
 async function getInitialScores(socket) {
   try {

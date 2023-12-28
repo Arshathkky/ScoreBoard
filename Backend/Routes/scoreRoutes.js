@@ -1,7 +1,7 @@
 // scoreRoutes.js
 const express = require('express');
-const Score = require('./scoreModel');
-const { getInitialScores, updateScore } = require('./scoreController');
+const Score = require('../Models/scoreSchema');
+const { getInitialScores, updateScore } = require('../controllers/scoreController');
 
 const router = express.Router();
 
